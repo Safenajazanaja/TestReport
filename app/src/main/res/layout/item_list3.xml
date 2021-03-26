@@ -7,51 +7,65 @@
 
     <TextView
         android:id="@+id/tvData8"
+        style="@style/Text"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_columnWeight="1"
+        android:layout_margin="4dp"
         android:text="Data8" />
 
     <TextView
         android:id="@+id/tvData9"
+        style="@style/Text"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_columnWeight="1"
+        android:layout_margin="4dp"
         android:text="Data9" />
 
     <TextView
         android:id="@+id/tvData10"
+        style="@style/Text"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_columnWeight="1"
+        android:layout_margin="4dp"
         android:text="Data10" />
 
     <TextView
         android:id="@+id/tvData11"
+        style="@style/Text"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_columnWeight="1"
+        android:layout_margin="4dp"
         android:text="Data11" />
 
     <TextView
         android:id="@+id/tvData12"
+        style="@style/Text"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_columnWeight="1"
+        android:layout_margin="4dp"
         android:text="Data12" />
 
     <TextView
         android:id="@+id/tvData13"
+        style="@style/Text"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_columnWeight="1"
+        android:layout_margin="4dp"
         android:text="Data13" />
 
     <TextView
         android:id="@+id/tvData14"
+        style="@style/Text"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_columnWeight="1"
+        android:layout_margin="4dp"
         android:text="Data14" />
 
 </GridLayout>

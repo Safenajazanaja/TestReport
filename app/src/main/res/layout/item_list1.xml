@@ -6,16 +6,20 @@
 
     <TextView
         android:id="@+id/tvData3"
+        style="@style/Text"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
+        android:layout_margin="4dp"
         android:text="Data3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/tvData4"
+        style="@style/Text"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
+        android:layout_margin="4dp"
         android:text="Data4"
         app:layout_constraintStart_toEndOf="@+id/tvData3"
         app:layout_constraintTop_toTopOf="parent" />
@@ -31,18 +35,35 @@
 
     <TextView
         android:id="@+id/tvData5"
-        android:layout_width="100dp"
+        style="@style/Text.Title"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="4dp"
         android:text="Data5"
         app:layout_constraintEnd_toStartOf="@+id/tvData6"
         app:layout_constraintTop_toBottomOf="@+id/recyclerView" />
 
     <TextView
         android:id="@+id/tvData6"
-        android:layout_width="100dp"
+        style="@style/Text.Title"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="4dp"
         android:text="Data6"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/recyclerView" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="4dp"
+        android:background="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvData6" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

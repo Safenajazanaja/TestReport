@@ -2,55 +2,93 @@
 <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:columnCount="8"
-    android:rowCount="1">
+    android:columnCount="9"
+    android:rowCount="3">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_columnSpan="9"
+        android:layout_margin="4dp"
+        android:background="@color/black" />
 
     <TextView
+        style="@style/Text.Title"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_columnWeight="1"
+        android:layout_margin="4dp"
         android:text="รหัสผู้เล่น" />
 
     <TextView
+        style="@style/Text.Title"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_columnWeight="1"
+        android:layout_margin="4dp"
         android:text="ชื่อผู้เล่น" />
 
     <TextView
+        style="@style/Text.Title"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_columnWeight="1"
+        android:layout_margin="4dp"
         android:text="วันที่" />
 
     <TextView
+        style="@style/Text.Title"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_columnWeight="1"
+        android:layout_margin="4dp"
         android:text="เวลา" />
 
     <TextView
+        style="@style/Text.Title"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_columnWeight="1"
+        android:layout_margin="4dp"
         android:text="ไอเทม1" />
 
     <TextView
+        style="@style/Text.Title"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_columnWeight="1"
+        android:layout_margin="4dp"
         android:text="ไอเทม2" />
 
     <TextView
+        style="@style/Text.Title"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_columnWeight="1"
+        android:layout_margin="4dp"
         android:text="ไอเทม3" />
 
     <TextView
+        style="@style/Text.Title"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_columnWeight="1"
+        android:layout_margin="4dp"
         android:text="ไอเทม4" />
+
+    <TextView
+        style="@style/Text.Title"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_margin="4dp"
+        android:text="รวมคะแนน" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_columnSpan="9"
+        android:layout_margin="4dp"
+        android:background="@color/black" />
 
 </GridLayout>

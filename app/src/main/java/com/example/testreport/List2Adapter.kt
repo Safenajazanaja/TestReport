@@ -11,8 +11,14 @@ class List2Adapter : SimpleRecyclerView<List2>() {
 
     override fun View.onBindViewHolder(currentData: List2, beforeData: List2?) {
         tvData7.text = "รวมคะแนน ${currentData.data7}"
+        val adt=List3Adapter()
+        recyclerView.apply {
+            layoutManager=LinearLayoutManager(context)
+            adapter=adt
+        }
+        adt.submitList(currentData.list3)
 
-        recyclerView.submitList(List3Adapter(),currentData.list3)
+//        recyclerView.submitList(List3Adapter(),currentData.list3)
 
     }
 }

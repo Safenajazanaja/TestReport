@@ -6,7 +6,11 @@ import kotlinx.android.synthetic.main.item_list3.view.*
 class List3Adapter:SimpleRecyclerView<List3>() {
     override fun getLayout(): Int =R.layout.item_list3
 
+
     override fun View.onBindViewHolder(currentData: List3, beforeData: List3?) {
+        if (currentData.data8==beforeData?.data8){
+            tvData8.visibility=View.VISIBLE
+        }
         tvData8.text=currentData.data8
         tvData9.text=currentData.data9
         tvData10.text= currentData.data10.toString()
