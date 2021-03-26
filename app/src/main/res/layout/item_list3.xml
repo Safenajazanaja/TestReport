@@ -1,6 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="7"
+    android:rowCount="1">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/tvData8"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="Data8" />
+
+    <TextView
+        android:id="@+id/tvData9"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="Data9" />
+
+    <TextView
+        android:id="@+id/tvData10"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="Data10" />
+
+    <TextView
+        android:id="@+id/tvData11"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="Data11" />
+
+    <TextView
+        android:id="@+id/tvData12"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="Data12" />
+
+    <TextView
+        android:id="@+id/tvData13"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="Data13" />
+
+    <TextView
+        android:id="@+id/tvData14"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="Data14" />
+
+</GridLayout>

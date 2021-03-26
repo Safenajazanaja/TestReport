@@ -59,7 +59,7 @@ class MainActivity : AppCompatActivity() {
                             )
                         ),
                         List2(
-                            data7 = 54,
+                            data7 = 30,
                             list3 = listOf(
                                 List3(
                                     data8 = "2/1/64",
